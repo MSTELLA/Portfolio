@@ -9,32 +9,31 @@
 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
-
+<link rel="stylesheet" type="text/css" href="StyleSheet.css"> 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light header">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">MJ Castellanos</a>
+          <a class="navbar-brand" style="color:rgb(255,255,230); font-weight: bold;" href="https://mstella.github.io/Portfolio">MJ Castellanos</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     
+                    <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a> 
+                    </li> -->
+
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a> <!-- What if I add a little pop that says, you are already home lol-->
+                        <a class="nav-link" style="color:rgb(255,255,230); font-weight: bold" href="#projects_link">Projects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects_link">Projects</a>
+                        <a class="nav-link" style="color:rgb(255,255,230); font-weight:bold" href="#contact_links">Contact</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact_links">Contact</a>
-                    </li>
-                </ul>
-   
+              
           </div>
         </div>
     </nav>
@@ -46,7 +45,13 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
                   <div class="about-text go-to">
                       <h3 class="dark-color" id="home_links">About Me</h3>
                       <h6 class="theme-color lead">A computer science student &amp; a problem-solver</h6>
-                      <p>I <mark>design and develop</mark> services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface and meaningful interactions.</p>
+                      <p>I am currently completing my bachelors in computer science after coming from a health background. My passion is to approach all projects as puzzles, with a resolution that inspires when looking back.
+                        <br> I am currently improving my skills in <mark> Javascript </mark> through a 21 days Javascript Challenge.</p>
+                      <ul class="nav col-md-4">
+                      <li class="nav-item "> <a class="nav-link aboutmelink" href="https://www.linkedin.com/in/mariejosee-castellanos/"><i class="bi bi-linkedin"></i></a> </li> 
+                      <li class="nav-item"> <a class="nav-link aboutmelink" href="https://github.com/MSTELLA"><i class="bi bi-github"></i></a> </li> 
+                    <li class="nav-item "> <a class="nav-link aboutmelink" href="#"><i class="bi bi-instagram"></i></a></li> 
+                    </ul>
                       <!-- <div class="row about-list">
                           <div class="col-md-6">
                               <div class="media">
@@ -103,13 +108,13 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
                   </div>
                   <div class="col-6 col-lg-3">
                       <div class="count-data text-center">
-                          <h6 class="count h2" data-to="150" data-speed="150">0</h6>
+                          <h6 class="count h2" data-to="150" data-speed="150">2</h6>
                           <p class="m-0px font-w-600">Projects Completed</p>
                       </div>
                   </div>
                   <div class="col-6 col-lg-3">
                       <div class="count-data text-center">
-                          <h6 class="count h2" data-to="850" data-speed="850">0</h6>
+                          <h6 class="count h2" data-to="850" data-speed="850">1</h6>
                           <p class="m-0px font-w-600">Hackathons</p>
                       </div>
                   </div>
@@ -129,7 +134,7 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
         <h1 class="fw-light" id="projects_link">Projects</h1>
-        <p class="lead text-muted">From Data science to hardware, projects that show my curiosity and skills</p>
+        <p class="lead text-muted">From Data science to hardware, projects that show my curiosity, adaptability and skills.</p>
         <p>
           <!-- <a href="#" class="btn btn-primary my-2">Github</a> -->
           <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
@@ -139,36 +144,36 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
   </section>
 
   <div class="album py-5 bg-light">
-    <div class="container">
+    <div class="container ">
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card shadow-sm cards">
             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="newHacks/image.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
-            <div class="card-body">
+            <div class="card-body cards">
               <p class="card-text">24h Hackathon, integrating hardware and software. Themes: Health, Security or Productivity.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+              <div class="d-flex justify-content-between align-items-center ">
+                <div class="btn-group ">
+                  <button type="button" class="btn btn-sm btn-outline-secondary cards">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary cards">Github</button>
                 </div>
-                <small class="text-muted">Hackathon; Rasberry Pi</small>
+                <small class="cards">Hackathon; Rasberry Pi</small>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card shadow-sm">
+          <div class="card shadow-sm cards">
             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="Lighthouse/capture.png" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
-            <div class="card-body">
+            <div class="card-body cards">
               <p class="card-text">21 Days Javascript Challenge.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary cards">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary cards">Github</button>
                 </div>
-                <small class="text-muted">Coding Challenge; Javascript</small>
+                <small class="cards">Coding Challenge; Javascript</small>
               </div>
             </div>
           </div>
@@ -177,14 +182,14 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
           <div class="card shadow-sm">
             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="placeholder.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
 
-            <div class="card-body">
+            <div class="card-body cards">
               <p class="card-text">Next Project Here</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary cards">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary cards">Github</button>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="cards">9 mins</small>
               </div>
             </div>
           </div>
@@ -251,9 +256,9 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
       
       <!-- CONTACT ME SECTION-->
       <div class="container px-4 py-5" id="icon-grid">
-        <h2 class="pb-2 border-bottom" id="contact_links">Contact Me</h2>
+        <h2 class="pb-2 border-bottom" >Contact Me</h2>
 
-        <div class="mb-3">
+        <div class="mb-3" id="contact_links">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
@@ -280,9 +285,9 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
         </div>
     
     <!-- FOOTER-->
-    <div class="container">
+    <div class="container footer">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ">
-            <p class="col-md-4 mb-0 text-muted"> MJ Castellanos</p>
+            <p class="col-md-4 mb-0/" style="color:rgb(255,255,230); font-weight:bold"> MJ Castellanos</p>
         
             <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>

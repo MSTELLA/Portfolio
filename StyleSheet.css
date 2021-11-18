@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(254,107,74);
+    margin-bottom: 20px;
+}
+
+.navbar-brand{
+    color:rgb(255,255,230);
+}
+
+.aboutmelink{
+    color: rgb(254,107,74);
+}
+.footer{
+    background-color: rgb(254,107,74);
+}
+
+.footer a{
+    color: white;
+}
+
+.cards{
+    background-color: rgb(228,163,81);
+    color:rgb(255,255,230);
+    font-style: bold;
+}
